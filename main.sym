@@ -1,0 +1,57 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy)                  Page 1
+Hexadecimal [32-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =   00002710 L
+    .__.ABS.                                                    =   00000000 G
+    .__.CPU.                                                    =   00000000 L
+    .__.H$L.                                                    =   00000000 L
+    _LCDC_REG                                                       ******** GX
+    _NR10_REG                                                       ******** GX
+    _NR11_REG                                                       ******** GX
+    _NR12_REG                                                       ******** GX
+    _NR13_REG                                                       ******** GX
+    _NR14_REG                                                       ******** GX
+    _NR41_REG                                                       ******** GX
+    _NR42_REG                                                       ******** GX
+    _NR43_REG                                                       ******** GX
+    _NR44_REG                                                       ******** GX
+    _NR50_REG                                                       ******** GX
+    _NR51_REG                                                       ******** GX
+    _NR52_REG                                                       ******** GX
+  7 __xinit__map01                                                  00000040 R
+  7 __xinit__map_tiles                                              00000000 R
+  7 __xinit__spaceship                                              000001A8 R
+  0 _blankmap                                                       0000000C GR
+  0 _brick_hit                                                      00000045 GR
+    _joypad                                                         ******** GX
+  0 _main                                                           00000122 GR
+  2 _map01                                                          00000040 GR
+  2 _map_tiles                                                      00000000 GR
+  1 _missle_moving                                                  00000000 GR
+  0 _performant_delay                                               00000000 GR
+    _set_bkg_data                                                   ******** GX
+    _set_bkg_tiles                                                  ******** GX
+    _set_sprite_data                                                ******** GX
+    _shadow_OAM                                                     ******** GX
+  0 _shoot                                                          0000000D GR
+  2 _spaceship                                                      000001A8 GR
+    _wait_vbl_done                                                  ******** GX
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (GameBoy)                  Page 2
+Hexadecimal [32-Bits]
+
+Area Table
+
+   0 _CODE                                      size      23D   flags    0
+   1 _DATA                                      size        1   flags    0
+   2 _INITIALIZED                               size      1C8   flags    0
+   3 _DABS                                      size        0   flags    8
+   4 _HOME                                      size        0   flags    0
+   5 _GSINIT                                    size        0   flags    0
+   6 _GSFINAL                                   size        0   flags    0
+   7 _INITIALIZER                               size      1C8   flags    0
+   8 _CABS                                      size        0   flags    8
+
